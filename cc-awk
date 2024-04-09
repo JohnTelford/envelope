@@ -1,0 +1,1 @@
+gawk 'BEGIN { FS = "," } ; { print $4 $7 }' cc-march-2024.csv
